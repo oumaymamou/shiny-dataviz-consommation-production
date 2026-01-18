@@ -57,6 +57,21 @@ Source : https://data.enedis.fr
 - Agrégation dynamique multi-régions
 - Outil d’aide à l’analyse des tendances de consommation et production
 
+  ##  Aperçu de l’application
+
+### Consommation < 36 kVA
+![Consommation inférieure à 36 kVA](images/conso_inf36.png)
+
+### Consommation ≥ 36 kVA
+![Consommation supérieure à 36 kVA](images/conso_sup36.png)
+
+### Courbes moyennes d’énergie
+![Courbes moyennes](images/courbes_moyennes_energie.png)
+
+### Production
+![Production électrique](images/production.png)
+
+
 ##  Pistes d’amélioration
 - Connexion directe via API Enedis
 - Ajout de prévisions (ARIMA / Prophet)
@@ -68,3 +83,4 @@ Source : https://data.enedis.fr
 - **Framework** : Shiny
 - **Librairies** : shiny, ggplot2, dplyr, lubridate, plotly, DT
 - **Données** : Enedis Open Data
+
